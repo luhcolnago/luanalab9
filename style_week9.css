@@ -1,0 +1,51 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.im-awesome {
+    font-size: 2rem;
+    color: white;
+    padding: 1rem;
+    background: #C17D93;
+    margin: 2rem 12rem 2rem 12rem;
+  	border: 2px;
+  	border-radius:10px;
+  	 text-align: center; 
+}
+
+.yas {
+margin: 1.5rem;
+}
+
+.section--page {
+    min-height: 55vh;
+    padding: 2rem 1rem 1rem;
+}
+.section--page:nth-of-type(odd) {
+    background: #C17D93;
+}
+
+.nav {
+    padding: 0;
+}
+.nav__item {
+    list-style:none;
+    display: inline-block;
+}
+.nav__link {
+    padding: 1rem;   
+}
+
+.nav__link:hover {
+    background: purple;
+    color: white;
+}
+
+.body-link:hover {
+	font-weight: bold;
+
+}
+
+.size-image{
+	height: 300px;
+}
