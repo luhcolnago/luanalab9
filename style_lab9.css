@@ -1,0 +1,117 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+div {
+  margin: 1rem;
+  padding: 1rem;
+  border: .2rem dotted purple;
+  background: solid transparent;
+  height: 8rem;
+  width: 8rem;
+}
+
+body {
+    font-family: Roboto, serif;
+    background-color: #92a8d1;
+    color: white; 
+}
+
+.luana:hover {
+colour: pink;
+font-size: 1rem;
+}
+
+.im-awesome {
+    padding: .5rem;
+    background: #C17D93;
+    margin: 2rem;
+  	border: 2px;
+  	border-radius:10px;
+  	text-align: center; 
+}
+
+.yas {
+font: Comic, sans-serif;
+margin: 1.5rem;
+}
+
+.section--page {
+    min-height: 55vh;
+    padding: 2rem 1rem 1rem;
+}
+.section--page:nth-of-type(odd) {
+    background: #C17D93;
+}
+
+.nav {
+    padding: 0;
+}
+.nav__item {
+    list-style:none;
+    display: block;
+    text-align: center;
+}
+.nav__link {
+    padding: 1rem; 
+    display: block; 
+    text-align: center; 
+}
+
+.nav__link:hover {
+    background: purple;
+    color: white;
+}
+
+.body-link:hover {
+	font-weight: bold;
+}
+
+.my-excellent-class {
+    color: purple;
+    font-size: 2rem;
+}
+.float-right {
+    float:right;
+    margin-left: 1rem;
+}
+
+.float-left {
+    float: left;
+    margin-right: 1rem;
+}
+.relative {
+position: fixed;
+right: 0;
+bottom: 0;
+height: auto;
+}
+
+img {
+    max-width: 30%;
+    min-width: 10rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+@media (min-width: 30rem){
+    .my-excellent-class{
+        color: black;
+    }
+}
+
+@media (min-width: 40rem) {
+    .nav__item {
+        display: inline-block;
+    }
+    .nav__link {
+        display: inline;
+    }
+}
+
+.paragrafo {
+  padding: 2rem 2rem 2rem 2rem;
+}
